@@ -1,7 +1,45 @@
 
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background-color: rgb(127, 187, 255);
+  text-align: center;
+  padding: 30px 0;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 30px 0 20px 0;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
 .hide {
   opacity: 0;
 }
+
 .show {
   opacity: 1;
   transition: opacity 1s;
